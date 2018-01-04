@@ -1,4 +1,4 @@
-$ ./AES -e
+# ./AES -e
 Result: 0x66E94BD4EF8A2C3B884CFA59CA342B2E
 # ./AES -d
 Result: 0x140F0F1011B5223D79587717FFD9EC3A
@@ -15,9 +15,6 @@ Decryption of aes-butokuden.jpg in aes-aes-butokuden.jpg
 - If a third parameter is given, it will be considered as a password: the program
 as above, except for the choice of the key. This will be in this case the summary
 
-MD5 of the password.
-# $ echo -n "Alain" | md5
-163f0dda0338e504f0a2ffc8abac45a2
 # ./AES -e butokuden.jpg Alain
 The key used is: 0x163F0DDA0338E504F0A2FFC8ABAC45A2
 Butokuden.jpg encryption in aes-butokuden.jpg
